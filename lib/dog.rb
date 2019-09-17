@@ -1,11 +1,18 @@
 class Dog 
   
-  # Setter for breed
+  def name=(dog_name)
+    @name = dog_name
+  end 
+  
+  def name 
+    @name
+  end 
+  
+  
   def breed=(dog_breed)
     @breed = dog_breed
   end 
   
-  # Getter for breed
   def breed 
     @breed
   end 
